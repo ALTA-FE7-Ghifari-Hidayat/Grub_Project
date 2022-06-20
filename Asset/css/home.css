@@ -1,0 +1,28 @@
+body {
+  color: #19345E;
+}
+
+.lgatskr {
+  width: 150px ;
+  margin: 10px; 
+}
+
+.buttoncontact {
+  color: #F47522 ;
+  background-color: white;
+  border: 1px solid #F47522;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+  margin-left: 40px;
+}
+
+.buttoncontact:hover {
+  color: white;
+  background-color: #F47522;
+  border: 1px solid #F47522;
+}
+
+.anavbar:hover {
+  color: #F47522;
+}
