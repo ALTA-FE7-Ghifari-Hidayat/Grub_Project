@@ -1,28 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:ital,wght@0,700;1,300&display=swap');
+
 body {
-  color: #19345E;
+  color: #19345e;
+  font-family: 'Roboto', 'Mulish';
 }
 
 .lgatskr {
-  width: 150px ;
-  margin: 10px; 
+  width: 150px;
+  margin: 10px;
 }
 
 .buttoncontact {
-  color: #F47522 ;
+  color: #f47522;
   background-color: white;
-  border: 1px solid #F47522;
+  border: 1px solid #f47522;
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 15px;
-  margin-left: 40px;
 }
 
 .buttoncontact:hover {
   color: white;
-  background-color: #F47522;
-  border: 1px solid #F47522;
+  background-color: #f47522;
+  border: 1px solid #f47522;
+}
+
+.anavbar {
+  font-family: 'Mulish';
+  font-weight: 700;
+  color: #19345e;
+  margin: 0 15px;
 }
 
 .anavbar:hover {
-  color: #F47522;
+  color: #f47522;
+}
+
+/* akhirnavbar */
+.isi {
+  background-color: aliceblue;
+  height: 750px;
+}
+
+.gmbrhome {
+  margin: 50px 0px;
+  height: 500px;
+  width: 500px;
+}
+
+.col1 {
+  padding: 70px;
+}
+
+.col2 {
+  padding-top: 200px;
+}
+
+.hithere {
+  font-size: 25px;
+  color: #19345e;
+  font-weight: bold;
+}
+
+.weare {
+  font-size: 45px;
+}
+
+.tlsan {
+  width: 60%;
+  font-weight: bold;
+}
+
+.dskripsialterra {
+  color: #19345e;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.buttonteam {
+  color: white;
+  border: 1px solid white;
+  padding-left: 40px;
+  padding-right: 30px;
+  border-radius: 15px;
+  margin-top: 20px;
+  transition-duration: 0.2s;
+}
+
+.buttonteam:hover {
+  color: #f47522;
+  border: 1px solid #f47522;
+}
+
+.buttonteamimg {
+  background: url('/Asset/images/sport-team.png') no-repeat;
+  background-size: 20px;
+  background-position: 10px;
+  background-color: #f47522;
+  transition-duration: 0.2s;
+}
+
+.buttonteamimg:hover {
+  background: url('/Asset/images/sport-team-hover.png') no-repeat;
+  background-size: 20px;
+  background-color: white;
+  background-position: 10px;
+}
+
+.yearjob {
+  border-radius: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.rewardimg {
+  background-color: #f47522;
+  border-radius: 50%;
+  padding: 5px;
+  width: 60px;
+  height: 60px;
+}
+
+.projectimg {
+  background-color: #f47522;
+  border-radius: 50%;
+  padding: 5px;
+  width: 60px;
+  height: 60px;
+}
+
+.supportimg {
+  background-color: #f47522;
+  border-radius: 50%;
+  padding: 5px;
+  width: 60px;
+  height: 60px;
+}
+
+.img-reward {
+  width: 40px;
+}
+.img-project {
+  width: 40px;
+}
+.img-support {
+  width: 40px;
+}
+
+.row-about {
+  margin: 50px 0px;
+}
+
+.hr {
+  border-radius: 15px;
+  width: 100%;
+  height: 3px;
+  background-color: #f47522;
+  margin: 0 auto;
+}
+
+.hrkiri {
+  right: 0px;
+}
+.gmbarbackgroundhome {
+  background-image: url('/Asset/images/bg-people@2x.png');
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+
+.gmbarbackgroundhomeopacity {
+  background-color: rgba(25, 52, 94, 0.7);
+  background-size: cover;
+  height: 50vh;
+}
+
+.alterrais {
+  color: white;
+  font-size: 45px;
+}
+.asabrandnew {
+  color: white;
+}
+
+.row-meat {
+  margin-top: 50px;
+}
+
+.cardhome {
+  margin-top: 10vh;
+  height: 50vh;
+}
+
+.checknow {
+  color: #19345e;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Mulish';
+}
+
+.checknow:hover {
+  color: #f47522;
+}
+
+.borderteam {
+  border: 2px solid #f47522;
 }
