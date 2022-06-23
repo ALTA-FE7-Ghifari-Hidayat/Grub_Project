@@ -267,9 +267,13 @@ body {
   margin-bottom: 30px;
 }
 
+.mrgintop {
+}
+
 .footer {
   background-color: #19345e;
   height: 15vh;
+  margin-top: 70px;
 }
 
 .logobawah {
