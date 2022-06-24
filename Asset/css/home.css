@@ -1,4 +1,4 @@
-body {
+.body {
   color: #19345E;
 }
 
@@ -24,5 +24,13 @@ body {
 }
 
 .anavbar:hover {
+  color: #F47522;
+}
+
+.banner {
+  height: 80vh;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
   color: #F47522;
 }

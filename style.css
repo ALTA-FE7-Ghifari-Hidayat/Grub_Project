@@ -1,0 +1,65 @@
+.body {
+    color: #19345E;
+
+  }
+
+  #about {
+    background-image: url("Asset/images/ornament_batik.png");
+    background-repeat: no-repeat;
+    height: 220px;
+  }
+  
+  .lgatskr {
+    width: 150px ;
+    margin: 10px; 
+  }
+
+  .kiri-dikit {
+    margin-left: 10px;
+  }
+
+  .strip-oren {
+    color: #F47522;
+  }
+  
+  .buttoncontact {
+    color: #F47522;
+    background-color: white;
+    border: 1px solid #F47522;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    margin-left: 20px;
+  }
+  
+  .buttoncontact:hover {
+    color: white;
+    background-color: #F47522;
+    border: 1px solid #F47522;
+  }
+
+  .button-message {
+    background-color: #F47522;
+    border: 1px solid #F47522;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    margin-left: 10px;
+  }
+  
+  .anavbar:hover {
+    color: #F47522;
+  }
+  
+  .container {
+    color: #000080;
+  }
+
+  .description p {
+	font-size: 20px;
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+    color: #000080
+}
+    
