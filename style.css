@@ -1,77 +1,112 @@
-.body {
-    color: #19345E;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&family=Poppins:wght@100;200;400;500;600&family=Roboto:ital,wght@0,700;1,300&display=swap');
 
-  }
+body {
+  color: #19345e;
+  font-family: 'Roboto', 'Mulish';
+}
 
-  #about {
-    background-image: url("Asset/images/ornament_batik.png");
-    background-repeat: no-repeat;
-    height: 220px;
-  }
-  
-  .lgatskr {
-    width: 150px ;
-    margin: 10px; 
-  }
+.lgatskr {
+  width: 150px;
+  margin: 10px;
+}
+.muli {
+  font-family: 'mulish';
+}
+.poppins {
+  font-family: 'poppins';
+  font-weight: 400;
+}
 
-  .kiri-dikit {
-    margin-left: 10px;
-  }
+.buttoncontact {
+  color: #f47522;
+  background-color: white;
+  border: 1px solid #f47522;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+}
 
-  .strip-oren {
-    color: #F47522;
-  }
-  
-  .buttoncontact {
-    color: #F47522;
-    background-color: white;
-    border: 1px solid #F47522;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 15px;
-    margin-left: 20px;
-  }
-  
-  .buttoncontact:hover {
-    color: white;
-    background-color: #F47522;
-    border: 1px solid #F47522;
-  }
+.buttoncontact:hover {
+  color: white;
+  background-color: #f47522;
+  border: 1px solid #f47522;
+}
 
-  .button-message {
-    background-color: #F47522;
-    border: 1px solid #F47522;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 15px;
-    margin-left: 10px;
-  }
-  
-  .anavbar:hover {
-    color: #F47522;
-  }
-  
-  .container {
-    color: #000080;
-  }
+.anavbar {
+  font-family: 'Mulish';
+  font-weight: 700;
+  color: #19345e;
+  margin: 0 15px;
+}
 
-  .description p {
-	font-size: 20px;
-    text-align: justify;
-    margin: 10px;
-    padding: 10px;
-    color: #000080
+.anavbar:hover {
+  color: #f47522;
+}
+#about {
+  background-image: url('Asset/images/ornament_batik.png');
+  background-repeat: no-repeat;
+  height: 220px;
+}
+
+.lgatskr {
+  width: 150px;
+  margin: 10px;
+}
+
+.kiri-dikit {
+  margin-left: 10px;
+}
+
+.strip-oren {
+  color: #f47522;
+}
+
+.buttoncontact {
+  color: #f47522;
+  background-color: white;
+  border: 1px solid #f47522;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+  margin-left: 20px;
+}
+
+.buttoncontact:hover {
+  color: white;
+  background-color: #f47522;
+  border: 1px solid #f47522;
+}
+
+.button-message {
+  background-color: #f47522;
+  border: 1px solid #f47522;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+.anavbar:hover {
+  color: #f47522;
+}
+
+.container {
+  color: #000080;
+}
+
+.description p {
+  font-size: 20px;
+  text-align: justify;
+  margin: 10px;
+  padding: 10px;
+  color: #000080;
 }
 
 @media (max-width: 575.98px) {
- 
 }
 
- @media (max-width: 991.98px) { 
+@media (max-width: 991.98px) {
+}
 
- }
-
- @media (max-width: 1399.98px) {
-
-  }
-    
+@media (max-width: 1399.98px) {
+}
