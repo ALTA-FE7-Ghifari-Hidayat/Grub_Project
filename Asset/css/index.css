@@ -1,0 +1,8 @@
+.jumbotron {
+    background-image: url('image/ornament_batik.png');
+    backround-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #FFF;
+}
